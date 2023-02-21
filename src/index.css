@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Poppins;
+  background-color: #252422;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card{
+    background-color: #ffffffd8;
+    color: #000000;
+    padding: 30px 0px 30px 0;
+    transition: background-color 0.6s cubic-bezier(0.55, 0.09, 0, 0.88), border 0.6s cubic-bezier(0.55, 0.09, 0, 0.88), color 0.6s cubic-bezier(0.55, 0.09, 0, 0.88);
+}
+
+.card:hover{
+    background-color: #ffffff42;
+    color: #ffffff;
+    padding: 30px 0px 30px 0;
+    border: 1px solid #EB5E28;
+    
+}
+
+.rowPadding{
+    padding: 80px 0 80px 0;
+}
+
+.colPadding{
+    padding: 50px 0 50px 0;
+}
